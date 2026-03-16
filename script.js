@@ -1,7 +1,7 @@
 // === CONFIGURACIÓN DE SUPABASE ===
 // ¡IMPORTANTE! Reemplaza estos valores con los de tu proyecto en Supabase (Settings -> API)
-const SUPABASE_URL = 'TU_URL_DE_SUPABASE'; 
-const SUPABASE_ANON_KEY = 'TU_ANON_KEY_DE_SUPABASE';
+const SUPABASE_URL = 'https://uruziijhnvgmlghwbryn.supabase.co'; 
+const SUPABASE_ANON_KEY = 'sb_publisible_FhksukqragQSFQrQ-1lFQA_HrrP7GGO';
 
 let supabase = null;
 
