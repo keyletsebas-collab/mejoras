@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SlideCraft | Ideas & Sugerencias</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- HERO -->
+  <header>
+    <div class="container">
+      <div class="logo-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+      <h1>SlideCraft</h1>
+      <p class="hero-desc">La próxima generación de presentaciones creadas directamente en tu navegador. Ayúdanos a construir el futuro.</p>
+      <a href="https://github.com/keyletsebas-collab/slidecraft" class="btn btn-primary">Ver Repositorio</a>
+    </div>
+  </header>
+
+  <!-- FEEDBACK FORM -->
+  <section class="section" id="feedback">
+    <div class="container">
+      <div class="glass-card">
+        <h2>¿Qué cosas debería tener la app?</h2>
+        <p style="text-align: center; color: var(--text-muted); margin-bottom: 30px;">Tus ideas son lo más importante. Cuéntame qué funciones te gustaría ver en SlideCraft.</p>
+        
+        <form id="feedback-form">
+          <div class="form-group">
+            <label for="name">Tu Nombre</label>
+            <input type="text" id="name" placeholder="Ej. Juan Pérez" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Sugerencia o nueva función</label>
+            <textarea id="message" rows="5" placeholder="Me gustaría que la app tuviera..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%; font-size: 1.1rem;">Enviar mi idea <i class="fa-solid fa-paper-plane"></i></button>
+        </form>
+        <div id="form-status" style="display:none; text-align:center; margin-top:20px; font-weight:600; color:var(--primary);"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ROADMAP -->
+  <section class="section">
+    <div class="container">
+      <h2 style="margin-bottom: 40px;">Plan de Desarrollo (Roadmap)</h2>
+      <div class="roadmap-grid">
+        <div class="roadmap-item">
+          <span class="status-badge">Próximamente</span>
+          <h3>Animaciones de Carga</h3>
+          <p>Transiciones más suaves al navegar entre pantallas.</p>
+        </div>
+        <div class="roadmap-item">
+          <span class="status-badge">En Idea</span>
+          <h3>Exportación a Video</h3>
+          <p>Convertir tus presentaciones en archivos MP4 automáticamente.</p>
+        </div>
+        <div class="roadmap-item">
+          <span class="status-badge">Planeado</span>
+          <h3>Modo Colaborativo</h3>
+          <p>Editar presentaciones con tus amigos al mismo tiempo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 SlideCraft. Creado en clase con ❤️.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
